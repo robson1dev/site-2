@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paragrafo</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Luckiest+Guy&display=swap');
+
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            text-align: center;
+        }
+        main{
+            background-color:black;
+
+            margin-top: 80px;
+            width: 800px;
+            margin: auto;
+
+            border-radius: 5px black;
+        }
+        header{
+            background-color:black;
+            min-height: 50px;
+
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            text-shadow: 1px 0px 20px white;
+            justify-content: space-around;
+
+        }
+        
+        h1.titulo{
+            color: white;
+
+            font-family: 'Bebas Neue', cursive;
+            font-weight: normal;
+            font-size: 50px;
+
+            
+            
+        }
+        nav{
+            display: flex;
+            gap: 20px;
+        }
+        nav > img{
+            width: 30px;
+        }
+        p{
+            display: inline-block;
+            background-color: #872e2e;
+            color: white;
+
+            text-align: center;
+
+            font-weight: bold;
+            font-style: italic;
+
+            padding: 10px;
+
+            border-radius: 5px;
+
+            margin-top: 10px;
+
+        }
+        span{
+            font-weight: normal;
+            font-style: normal;
+        }
+        .divbotao{
+            margin-top: 20px;
+        }
+        .botao{
+            background-color: #10b964;
+            color: #ffffff;
+
+            text-transform: uppercase;
+
+            padding: 10px 30px;
+
+            border-radius: 3px;
+
+        }
+        .botao:hover{
+            color: #000000;
+        }
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+        <header>
+            <h1 class="titulo">Mega Deus</h1>
+                <nav menus>
+                    <img src="twitter-p.png" alt="Twitter"  title="Twitter" class="img">
+                    <img src="instagram.png" alt="Instagram" title="Instagram" class="img">
+                </nav>
+        
+        </header>
+        
+            <p>"Testando paragrafo e conhecimento de desenvolvimento Web"
+                <br><span>Testando botão com paragrafo e span dentro</span>
+            </p>
+            <div class="divbotao">
+                <a href="#"><span class="botao">Teste de botão span</span></a>
+            </div>
+
+</body>
+</html>
